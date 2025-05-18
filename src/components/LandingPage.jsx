@@ -143,7 +143,7 @@ export default function LandingPage() {
                   ))}
                 </div>
                 <div className="stats-text">
-                  <span className="stats-highlight">+150</span> projetos entregues com sucesso
+                  <span className="stats-highlight">+30</span> projetos entregues com sucesso e aprovados pelos clientes!
                 </div>
               </div>
             </div>
@@ -377,25 +377,25 @@ export default function LandingPage() {
               {
                 name: "Bruno D'anna",
                 company: "Compuword",
-                image: "/placeholder.svg?height=100&width=100",
+                gradient: "from-blue-500 to-purple-600",
                 text: "Excelente trabalho! O site desenvolvido superou todas as nossas expectativas. A estratégia de marketing digital implementada aumentou significativamente nosso tráfego e conversões.",
               },
               {
                 name: "Renata Andrade",
                 company: "Advogada Autônoma",
-                image: "/placeholder.svg?height=100&width=100",
+                gradient: "from-pink-500 to-orange-400",
                 text: "Meu site ficou incrível! Profissionalismo e resultados reais. As estratégias de SEO me colocaram nas primeiras posições do Google para as principais palavras-chave do meu nicho.",
               },
               {
                 name: "Carlos Mendes",
                 company: "Inovação Digital",
-                image: "/placeholder.svg?height=100&width=100",
+                gradient: "from-green-400 to-cyan-500",
                 text: "Profissionalismo e resultados reais. As campanhas de marketing digital superaram todas as nossas expectativas. Recomendo fortemente para qualquer empresa que queira crescer online.",
               },
               {
                 name: "Mariana Costa",
                 company: "FutureShop",
-                image: "/placeholder.svg?height=100&width=100",
+                gradient: "from-purple-500 to-red-500",
                 text: "O redesign do nosso site transformou completamente a experiência dos nossos clientes. As vendas aumentaram em 35% no primeiro mês após o lançamento do novo site.",
               },
             ].map((testimonial, index) => (
@@ -405,11 +405,9 @@ export default function LandingPage() {
                   <div className="testimonial-header">
                     <div className="testimonial-avatar-container">
                       <div className="testimonial-avatar-glow"></div>
-                      <img
-                        src={testimonial.image || "/placeholder.svg"}
-                        alt={testimonial.name}
-                        className="testimonial-avatar"
-                      />
+                      <div className={`testimonial-avatar bg-gradient-to-br ${testimonial.gradient}`}>
+                        {testimonial.name.charAt(0)}
+                      </div>
                     </div>
                     <div className="testimonial-author">
                       <h3 className="testimonial-name">{testimonial.name}</h3>
