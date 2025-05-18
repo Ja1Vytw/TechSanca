@@ -549,7 +549,7 @@ export default function LandingPage() {
                   <h4 className="contact-social-title">Redes Sociais</h4>
                   <div className="contact-social-icons">
                     <a
-                      href="https://linkedin.com/"
+                      href="www.linkedin.com/in/joao-vitor-pereira21102003"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="contact-social-icon linkedin"
@@ -571,7 +571,7 @@ export default function LandingPage() {
                       </svg>
                     </a>
                     <a
-                      href="https://instagram.com/"
+                      href="https://instagram.com/techsanca"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="contact-social-icon instagram"
