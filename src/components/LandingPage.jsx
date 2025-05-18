@@ -375,8 +375,8 @@ export default function LandingPage() {
           <div className="testimonials-grid">
             {[
               {
-                name: "Bruno D'anna",
-                company: "Compuword",
+                name: "Bruno D.",
+                company: "Empresa de infomática",
                 gradient: "from-blue-500 to-purple-600",
                 text: "Excelente trabalho! O site desenvolvido superou todas as nossas expectativas. A estratégia de marketing digital implementada aumentou significativamente nosso tráfego e conversões.",
               },
@@ -396,7 +396,7 @@ export default function LandingPage() {
                 name: "Mariana Costa",
                 company: "FutureShop",
                 gradient: "from-purple-500 to-red-500",
-                text: "O redesign do nosso site transformou completamente a experiência dos nossos clientes. As vendas aumentaram em 35% no primeiro mês após o lançamento do novo site.",
+                text: "O redesign do nosso site transformou completamente a experiência dos nossos clientes. As vendas aumentaram muito já no primeiro mês após o lançamento do novo site.",
               },
             ].map((testimonial, index) => (
               <div key={index} className="testimonial-card animate-on-scroll">
