@@ -669,7 +669,7 @@ export default function LandingPage() {
                 </p>
                 <div className="footer-social">
                   <a
-                    href="https://linkedin.com/"
+                    href="www.linkedin.com/in/joao-vitor-pereira21102003"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="footer-social-link"
@@ -691,7 +691,7 @@ export default function LandingPage() {
                     </svg>
                   </a>
                   <a
-                    href="https://instagram.com/"
+                    href="https://instagram.com/TechSanca"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="footer-social-link"
