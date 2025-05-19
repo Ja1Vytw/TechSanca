@@ -429,7 +429,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Landing Page Builder Section */}
+      {/* Landing Page Builder  */}
       <section ref={builderRef} className="builder-section">
         <LandingPageBuilder />
       </section>
@@ -438,7 +438,6 @@ export default function LandingPage() {
       <section ref={contactRef} className="contact-section">
         <div className="contact-background"></div>
         <div className="contact-grid-pattern"></div>
-        {/* Add a subtle glow effect for visual continuity */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(120,41,170,0.3)_0,rgba(0,0,0,0)_50%)]"></div>
 
         <div className="contact-container">
