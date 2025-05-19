@@ -723,7 +723,7 @@ button,
 .footer {
   position: relative;
   padding: 0;
-  background-color: #0f172a;
+  background-color: transparent;
   overflow: hidden;
 }
 
@@ -731,6 +731,7 @@ button,
   position: relative;
   height: 80px;
   margin-bottom: -5px;
+  z-index: 1;
 }
 
 .footer-wave {
@@ -762,8 +763,10 @@ button,
 .footer-content {
   position: relative;
   z-index: 2;
-  background-color: #0f172a;
+  background-color: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(10px);
   padding: 4rem 0 2rem;
+  border-top: 1px solid rgba(79, 70, 229, 0.2);
 }
 
 .footer-container {

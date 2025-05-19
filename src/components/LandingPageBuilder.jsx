@@ -196,7 +196,8 @@ Gostaria de mais informações sobre este orçamento.
             <PackageCard
               color="blue"
               title="Landing Page Básica"
-              price={150}
+              price={199.98}
+              originalPrice={249.98}
               features={[
                 "Página simples e objetiva",
                 "Link direto pro WhatsApp",
@@ -204,14 +205,15 @@ Gostaria de mais informações sobre este orçamento.
                 "Entrega rápida (até 3 dias)",
               ]}
               description="Perfeita pra divulgação de serviços, promoções e produtos"
-              onSelect={() => handlePackageSelect("Landing Page Básica", 150)}
+              onSelect={() => handlePackageSelect("Landing Page Básica", 199.98)}
               selected={selectedPackage === "Landing Page Básica"}
             />
 
             <PackageCard
               color="yellow"
               title="Landing Page Intermediária"
-              price={300}
+              price={349.98}
+              originalPrice={429.98}
               features={[
                 "Design personalizado",
                 "Formulário de contato ou captação de leads",
@@ -219,14 +221,15 @@ Gostaria de mais informações sobre este orçamento.
                 "Otimização pra Google (SEO básico)",
               ]}
               description="Ideal pra quem quer aumentar conversões com estilo"
-              onSelect={() => handlePackageSelect("Landing Page Intermediária", 300)}
+              onSelect={() => handlePackageSelect("Landing Page Intermediária", 349.98)}
               selected={selectedPackage === "Landing Page Intermediária"}
             />
 
             <PackageCard
               color="red"
               title="Landing Page Premium"
-              price={500}
+              price={589.98}
+              originalPrice={699.98}
               features={[
                 "Copy profissional que vende",
                 "Integrações com e-mail marketing, pixel do Meta, Google Analytics",
@@ -234,7 +237,7 @@ Gostaria de mais informações sobre este orçamento.
                 "Suporte e manutenção pós-lançamento",
               ]}
               description="Perfeita pra lançamentos, campanhas pagas e empresas"
-              onSelect={() => handlePackageSelect("Landing Page Premium", 500)}
+              onSelect={() => handlePackageSelect("Landing Page Premium", 589.98)}
               selected={selectedPackage === "Landing Page Premium"}
             />
           </div>
@@ -573,7 +576,7 @@ Gostaria de mais informações sobre este orçamento.
   )
 }
 
-function PackageCard({ color, title, price, features, description, onSelect, selected }) {
+function PackageCard({ color, title, price, originalPrice, features, description, onSelect, selected }) {
   const colorClasses = {
     blue: {
       bg: "blue-glow",
@@ -606,6 +609,7 @@ function PackageCard({ color, title, price, features, description, onSelect, sel
         </div>
 
         <div className="package-price">
+          {originalPrice && <span className="original-price">R$ {originalPrice}</span>}
           <span>R$ {price}</span>
         </div>
 

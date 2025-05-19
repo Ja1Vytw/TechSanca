@@ -176,6 +176,22 @@
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 1rem;
+  position: relative;
+}
+
+.package-header::before {
+  content: "OFERTA";
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: linear-gradient(to right, #f43f5e, #ec4899);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  transform: rotate(15deg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .package-title {
@@ -206,11 +222,22 @@
 
 .package-price {
   margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.package-price span {
+.package-price .original-price {
+  font-size: 1.25rem;
+  color: #9ca3af;
+  text-decoration: line-through;
+  margin-bottom: 0.25rem;
+}
+
+.package-price span:last-child {
   font-size: 1.875rem;
   font-weight: bold;
+  color: #fff;
 }
 
 .package-features {

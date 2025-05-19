@@ -143,7 +143,7 @@ export default function LandingPage() {
                   ))}
                 </div>
                 <div className="stats-text">
-                  <span className="stats-highlight">+30</span> projetos entregues com sucesso e aprovados pelos clientes!
+                  <span className="stats-highlight">+150</span> projetos entregues com sucesso
                 </div>
               </div>
             </div>
@@ -375,8 +375,8 @@ export default function LandingPage() {
           <div className="testimonials-grid">
             {[
               {
-                name: "Bruno D.",
-                company: "Empresa de infomática",
+                name: "Bruno D'anna",
+                company: "Compuword",
                 gradient: "from-blue-500 to-purple-600",
                 text: "Excelente trabalho! O site desenvolvido superou todas as nossas expectativas. A estratégia de marketing digital implementada aumentou significativamente nosso tráfego e conversões.",
               },
@@ -396,7 +396,7 @@ export default function LandingPage() {
                 name: "Mariana Costa",
                 company: "FutureShop",
                 gradient: "from-purple-500 to-red-500",
-                text: "O redesign do nosso site transformou completamente a experiência dos nossos clientes. As vendas aumentaram muito já no primeiro mês após o lançamento do novo site.",
+                text: "O redesign do nosso site transformou completamente a experiência dos nossos clientes. As vendas aumentaram em 35% no primeiro mês após o lançamento do novo site.",
               },
             ].map((testimonial, index) => (
               <div key={index} className="testimonial-card animate-on-scroll">
@@ -438,6 +438,8 @@ export default function LandingPage() {
       <section ref={contactRef} className="contact-section">
         <div className="contact-background"></div>
         <div className="contact-grid-pattern"></div>
+        {/* Add a subtle glow effect for visual continuity */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(120,41,170,0.3)_0,rgba(0,0,0,0)_50%)]"></div>
 
         <div className="contact-container">
           <div className="contact-header animate-on-scroll">
@@ -549,7 +551,7 @@ export default function LandingPage() {
                   <h4 className="contact-social-title">Redes Sociais</h4>
                   <div className="contact-social-icons">
                     <a
-                      href="www.linkedin.com/in/joao-vitor-pereira21102003"
+                      href="https://linkedin.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="contact-social-icon linkedin"
@@ -571,7 +573,7 @@ export default function LandingPage() {
                       </svg>
                     </a>
                     <a
-                      href="https://instagram.com/techsanca"
+                      href="https://instagram.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="contact-social-icon instagram"
@@ -669,7 +671,7 @@ export default function LandingPage() {
                 </p>
                 <div className="footer-social">
                   <a
-                    href="www.linkedin.com/in/joao-vitor-pereira21102003"
+                    href="https://linkedin.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="footer-social-link"
@@ -691,7 +693,7 @@ export default function LandingPage() {
                     </svg>
                   </a>
                   <a
-                    href="https://instagram.com/TechSanca"
+                    href="https://instagram.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="footer-social-link"
