@@ -143,7 +143,7 @@ export default function LandingPage() {
                   ))}
                 </div>
                 <div className="stats-text">
-                  <span className="stats-highlight">+150</span> projetos entregues com sucesso
+                  <span className="stats-highlight">+35</span> projetos entregues e aprovados pelos clientes!
                 </div>
               </div>
             </div>
