@@ -116,7 +116,7 @@ export default function PrivacyPolicy({ onClose }) {
             <h2>9. Contato</h2>
             <p>
               Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco pelo e-mail:
-              pereirajoaovitor.741@gmail.com
+              contato@techsanca.com.br
             </p>
 
             <p>Última atualização: {new Date().toLocaleDateString()}</p>

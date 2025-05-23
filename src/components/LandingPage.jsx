@@ -375,13 +375,13 @@ export default function LandingPage() {
           <div className="testimonials-grid">
             {[
               {
-                name: "Bruno D'anna",
-                company: "Compuword",
+                name: "Bruno S",
+                company: "Empresa de Informatica",
                 gradient: "from-blue-500 to-purple-600",
                 text: "Excelente trabalho! O site desenvolvido superou todas as nossas expectativas. A estratégia de marketing digital implementada aumentou significativamente nosso tráfego e conversões.",
               },
               {
-                name: "Renata Andrade",
+                name: "Renata A",
                 company: "Advogada Autônoma",
                 gradient: "from-pink-500 to-orange-400",
                 text: "Meu site ficou incrível! Profissionalismo e resultados reais. As estratégias de SEO me colocaram nas primeiras posições do Google para as principais palavras-chave do meu nicho.",
@@ -394,7 +394,7 @@ export default function LandingPage() {
               },
               {
                 name: "Mariana Costa",
-                company: "FutureShop",
+                company: "TriploPay",
                 gradient: "from-purple-500 to-red-500",
                 text: "O redesign do nosso site transformou completamente a experiência dos nossos clientes. As vendas aumentaram em 35% no primeiro mês após o lançamento do novo site.",
               },
@@ -476,7 +476,7 @@ export default function LandingPage() {
                     </div>
                     <div className="contact-info-content">
                       <div className="contact-info-label">Email</div>
-                      <div className="contact-info-value">pereirajoaovitor.741@gmail.com</div>
+                      <div className="contact-info-value">contato@techsanca.com.br</div>
                     </div>
                   </li>
                   <li className="contact-info-item">

@@ -79,7 +79,7 @@ export default function TermsOfUse({ onClose }) {
             <h2>8. Contato</h2>
             <p>
               Se você tiver alguma dúvida sobre estes Termos de Uso, entre em contato conosco pelo e-mail:
-              pereirajoaovitor.741@gmail.com
+              contato@techsanca.com.br
             </p>
 
             <p>Última atualização: {new Date().toLocaleDateString()}</p>

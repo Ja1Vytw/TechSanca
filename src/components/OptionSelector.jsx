@@ -7,7 +7,6 @@ function OptionSelector({ title, type, options, value, onChange }) {
 
   const handleCheckboxChange = (optionValue) => {
     if (optionValue === "responsive") {
-      // Responsive is always true for this example
       return
     }
 
